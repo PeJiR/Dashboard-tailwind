@@ -15,13 +15,13 @@ export default {
        ' YouTube': 'hsl(348, 97%, 39%)',
         'Toggle': 'linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)',       
         'Very-Dark-Blue': 'hsl(230, 17%, 14%)',
-          'Very-Dark-Blue-top': 'hsl(232, 19%, 15%),'
-          'Dark- Desaturated- Blue':' hsl(228, 28%, 20%)',
-          Desaturated Blue (Text): hsl(228, 34%, 66%)          
-          Very Pale Blue: hsl(225, 100%, 98%)
-          Light Grayish Blue: hsl(227, 47%, 96%)
-          Dark Grayish Blue : hsl(228, 12%, 44%)
-          Very Dark Blue: hsl(230, 17%, 14%)
+          'Very-Dark-Blue-top': 'hsl(232, 19%, 15%)',
+          'Dark-Desaturated- Blue':' hsl(228, 28%, 20%)',
+         ' Desaturated-Blue': 'hsl(228, 34%, 66%)',          
+         ' Very-Pale-Blue': 'hsl(225, 100%, 98%)',
+          'Light-GrayishBlue': 'hsl(227, 47%, 96%)',
+         ' Dark-Grayish-Blue': 'hsl(228, 12%, 44%)',
+          'Very-Dark-Blue': 'hsl(230, 17%, 14%)',
 
 
 
