@@ -4,8 +4,7 @@
 function App() {
 
 
-  return (
-    <>
+  return (    <>
     
      <Header/>
       
@@ -13,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default App 
