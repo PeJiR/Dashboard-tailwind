@@ -21,8 +21,8 @@ export default {
         ".Very-Dark-Blue": "hsl(230, 17%, 14%)",
       },
       backgroundImage:{
-        "Toogle-gradient": "linear-gradient(to right, hsl(210, 78%, 56%), to hsl(146, 68%, 55%))",
-        "Instagram-gradient":"linear-gradient(to right, hsl(37, 97%, 70%), to hsl(329, 70%, 58%))",
+        ".Toogle-gradient": "linear-gradient(to right, hsl(210, 78%, 56%), to hsl(146, 68%, 55%))",
+        ".Instagram-gradient":"linear-gradient(to right, hsl(37, 97%, 70%), to hsl(329, 70%, 58%))",
       },
       fontFamily: {
         Inter: ["Inter"],
