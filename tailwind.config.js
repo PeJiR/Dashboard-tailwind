@@ -8,9 +8,8 @@ export default {
         ".Bright Red": "hsl(356, 69%, 56%)",
         ".Facebook": "hsl(208, 92%, 53%)",
         ".Twitter": "hsl(203, 89%, 53%)",
-        '.Instagram': "hsl(37, 97%, 70%) to hsl(329, 70%, 58%)",
         ".YouTube": "hsl(348, 97%, 39%)",
-        '.Toggle': "linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)",
+        '.Toggle': "hsl(230, 22%, 74%)",
         ".Very-Dark-Blue": "hsl(230, 17%, 14%)",
         ".Very-Dark-Blue-top": "hsl(232, 19%, 15%)",
         ".Dark-Desaturated- Blue": " hsl(228, 28%, 20%)",
@@ -21,8 +20,8 @@ export default {
         ".Very-Dark-Blue": "hsl(230, 17%, 14%)",
       },
       backgroundImage:{
-        ".Toogle-gradient": "linear-gradient(to right, hsl(210, 78%, 56%), to hsl(146, 68%, 55%))",
-        ".Instagram-gradient":"linear-gradient(to right, hsl(37, 97%, 70%), to hsl(329, 70%, 58%))",
+        ".Toogle-gradient":"linear-gradient(to right, hsl(210, 78%, 56%),hsl(146, 68%, 55%))",
+        ".Instagram-gradient":"linear-gradient(to right, hsl(37, 97%, 70%),hsl(329, 70%, 58%))"
       },
       fontFamily: {
         Inter: ["Inter"],
