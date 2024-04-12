@@ -7,15 +7,13 @@ export const Header = () => {
       <p className="text-.Dark-Grayish-Blue font-bold mb-6">
         Total Followers: 23,004
       </p>
-      <hr className="bg-black  mb- "></hr>
+      <hr className="bg-black mb- "></hr>
       <div className="flex justify-between items-center">
-        <p className="text-.Dark-Desaturated- Bluefont-bold">Dark mode</p>
-        <label
-          htmlFor="darkmode"
-          className="bprder bg-.Toggle w-12 h-6 rounded-full cursor-pointer p-[3px"
-        >
+        <p className="text-.Dark-Desaturated- Blue font-bold">Dark mode</p>
+        <label htmlFor="darkmode" className="border bg-.Toggle w-12 h-6 rounded-full cursor-pointer">
           <input id="darkmode" type="checkbox" className="peer sr-only"/>
-          <div className="w-[18px] h-[18px] bg-.Light-GrayishBlue rounded-full peer-checked:translate-x-[24px]transtition-all"></div>
+          <div className="w-[18px] h-[18px] bg-blue-500"></div>
+          
         </label>
       </div>
     </header>
