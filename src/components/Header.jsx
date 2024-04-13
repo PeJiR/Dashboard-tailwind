@@ -12,11 +12,7 @@ export const Header = () => {
   }, [darkMode]);
 
   return (
-<<<<<<< HEAD
-    <header className="  mx-auto  max-w-screen-2xl bg-.Very-Pale-Blue  dark:bg-.Very-Dark-Blue-top h-[235px] rounded-b-[20px] pt-8 px-6 mb-[1000px] md:mb-[460px]  lg:mb-[460px] xl:mb-[200px] 2xl:mb-[180px]">
-=======
-    <header className="bg-.Very-Pale-Blue  dark:bg-.Very-Dark-Blue-top h-[235px] rounded-b-[20px] pt-8 px-6 mb-[900px]  ">
->>>>>>> aadb2f81dfb7c69e580e2f163b56c40f88fdb155
+    <header className="  mx-auto  max-w-screen-2xl bg-.Very-Pale-Blue  dark:bg-.Very-Dark-Blue-top h-[235px] rounded-b-[20px] pt-8 px-6 mb-[1050px] md:mb-[540px]  lg:mb-[540px] xl:mb-[260px] 2xl:mb-[200px]">
       <h1 className="text-.Very-Dark-Blue  dark:text-.Very-Pale-Blue text-2xl font-bold mb-1">
         Social Media Dashboard{" "}
       </h1>

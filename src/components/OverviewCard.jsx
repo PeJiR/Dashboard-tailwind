@@ -28,7 +28,7 @@ export const OverviewCard = ({
   today,
 }) => {
   return (
-    <article className="bg-.Light-GrayishBlue dark:bg-.Dark-Desaturated-Blue  w-80 h-52 mb-6 rounded-md mt-4 mx-auto text-center overflow-hidden hover:brightness-95 cursor-pointer hover:dark:brightness-125">
+    <article className="bg-.Light-GrayishBlue dark:bg-.Dark-Desaturated-Blue  w-80 h-52 mb-1  rounded-md mt-4 mx-auto text-center overflow-hidden hover:brightness-95 cursor-pointer hover:dark:brightness-125">
       <div className={`${networkcolors[network]} h-1`}></div>
       <div className="flex place-content-center items-center p-6 gap-2">
         <img src={networkLogos[network]} alt={`logo ${network}`}></img>
@@ -62,21 +62,16 @@ export const OverViewTodayCard = ({
   percentage,
   isUp,
 }) => (
-<<<<<<< HEAD
-  <article className="bg-.Light-GrayishBlue w-xs dark:bg-.Dark-Desaturated-Blue h-24 mb-2 rounded-md mx-auto  mt-9 overflow-hidden hover:brightness-95 hover:dark:brightness-125 p-5 cursor-pointer ">
+  <article className=" bg-.Light-GrayishBlue w-80 h-32 mb-4 right-0 left-0  rounded-md p-7  mx-auto text-center    cursor-pointer hover:brightness-095 hover:dark:brightness-125 dark:bg-.Dark-Desaturated-Blue ">
     <div className="flex items-center justify-between pb-2">
-=======
-  <article className="bg-.Light-GrayishBlue w-xs dark:bg-.Dark-Desaturated-Blue h-24 mb-2 rounded-md   mt-9 overflow-hidden hover:brightness-95 hover:dark:brightness-125 p-5 cursor-pointer ">
-    <div className="flex justify-between pb-2">
->>>>>>> aadb2f81dfb7c69e580e2f163b56c40f88fdb155
       <p className="text-sm text-.Dark-Grayish-Blue font-bold">{statsType}</p>
       <img src={networkLogos[network]} alt={`logo ${network}`}></img>
     </div>
-    <div className="flex justify-between ">
+    <div className="flex items-center justify-between mb-5">
       <p className="   text-3xl font-bold text-.Very-Dark-Blue dark:text-.Very-Pale-Blue">
         {stats}
       </p>
-      <div className="flex place-content-center items-center gap-1 mt-2">
+      <div className="flex items-center place-content-center gap-1">
         <img src={isUp ? iconUp : iconDown} alt="icon arrow" />
         <p
           className={`text-xs font-bold ${
