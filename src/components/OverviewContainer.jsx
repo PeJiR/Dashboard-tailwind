@@ -14,6 +14,7 @@ export const OverviewContainer = () => {
           audience={object.audience}
           network={object.network}
           isUp={object.isUp}
+          today={object.today}
           />
       ))}
     </section>

@@ -4,9 +4,6 @@ import twitterLogo from "../assets/images/icon-twitter.svg";
 import instagramLogo from "../assets/images/icon-instagram.svg";
 import youtubeLogo from "../assets/images/icon-youtube.svg";
 import iconUp from "../assets/images/icon-up.svg";
-import iconDown from "../assets/images/icon-down.svg";
-
-
 const networkLogos = {
   Facebook: facebookLogo,
   Twitter: twitterLogo,
@@ -21,7 +18,14 @@ const networkcolors = {
   Youtube: "bg-.YouTube",
 };
 
-export const OverviewCard = ({ user, audienceType, audience, network, isUp }) => {
+export function OverviewCard({
+  user,
+  audienceType,
+  audience,
+  network,
+  isUp,
+  today,
+}) {
   return (
     <article className="bg-.Light-GrayishBlue w-80 h-52 mb-4 rounded-md mt-4 mx-auto text-center overflow-hidden">
       <div className={`${networkcolors[network]} h-1`}></div>
@@ -30,11 +34,22 @@ export const OverviewCard = ({ user, audienceType, audience, network, isUp }) =>
         <p className="text-xs text-.Dark-Grayish-Blue font-bold   ">{user}</p>
       </div>
       <p className="text-5xl font-bold text-.Very-Dark-Blue">{audience}</p>
-      <p className="uppercase tracking-wider text-.Dark-Grayish-Blue text-xs mt-2 ">{audienceType}</p>
+      <p className="uppercase tracking-wider text-.Dark-Grayish-Blue text-xs mt-2 ">
+        {audienceType}
+      </p>
       <div className="flex place-content-center items-center p-6 gap-1">
-      <img src="{isUp ? iconUp : iconDown}" alt="icon up"/>
-      <p> 56 today</p>
+        <img src={isUp ? iconUp : iconDown} alt="icon arrow" />
+
+        <p
+          className={`
+            "text-xs font-bold"  ${
+              isUp ? "text-.Lime-Green" : "text-.Bright-Red"
+            }`}
+        >
+          {" "}
+          56 today
+        </p>
       </div>
     </article>
   );
-};
+}
