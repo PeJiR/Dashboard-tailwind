@@ -12,7 +12,7 @@ export default {
       colors: {
         ".Lime-Green": "hsl(163, 72%, 41%)",
         ".Bright-Red": "hsl(356, 69%, 56%)",
-        ".Facebook": "hsl(208, 92%, 53%)",
+        ".Facebook": "hsl(208, 92%, 40%)",
         ".Twitter": "hsl(203, 89%, 53%)",
         ".YouTube": "hsl(348, 97%, 39%)",
         '.Toggle': "hsl(230, 22%, 74%)",
