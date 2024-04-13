@@ -19,7 +19,7 @@ export const Header = () => {
         Total Followers: 23,004
       </p>
       <hr className="bg-black mb- "></hr>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center mt-4">
         <p className="text-.Dark-Desaturated- Blue dark:text-.Desaturated-Blue font-bold">Dark mode</p>
         <label
           htmlFor="darkmode"

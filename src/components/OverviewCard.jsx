@@ -20,7 +20,7 @@ const networkcolors = {
 
 export const OverviewCard = ({ user, audienceType, audience, network }) => {
   return (
-    <article src={networkcolors[network]}  className="bg-.Light-GrayishBlue w-[326px] h-[216px] mb-4 rounded-[5px] mx-auto overflow-hidden">
+    <article src={networkcolors[network]}  className="bg-.Light-GrayishBlue w-80 h-52 mb-4 rounded-md mt-4 mx-auto overflow-hidden">
       <div className={`${networkcolors[network]} h-1`} ></div>      
       <div className="flex place-content-center items-center p-6 gap-2 mb-7">
         <img src={networkLogos[network]} alt={`logo ${network}`}></img>
