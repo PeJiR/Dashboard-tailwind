@@ -18,7 +18,7 @@ export default {
         '.Toggle': "hsl(230, 22%, 74%)",
         ".Very-Dark-Blue": "hsl(230, 17%, 14%)",
         ".Very-Dark-Blue-top": "hsl(232, 19%, 15%)",
-        ".Dark-Desaturated- Blue": " hsl(228, 28%, 20%)",
+        ".Dark-Desaturated-Blue": " hsl(228, 28%, 20%)",
         ".Desaturated-Blue": "hsl(228, 34%, 66%)",
         ".Very-Pale-Blue": "hsl(225, 100%, 98%)",
         ".Light-GrayishBlue": "hsl(227, 47%, 96%)",
