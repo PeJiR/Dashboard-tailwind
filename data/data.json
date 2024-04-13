@@ -17,6 +17,15 @@
       "audience": 1044,
       "today": 99,
       "isUp": true
+    },
+    {
+      "id": "o-003",
+      "network": "Instagram",
+      "user": "@realnathanf",
+      "audienceType": "followers",
+      "audience": "11k",
+      "today": 1099,
+      "isUp": true
     }
   ]
 }
