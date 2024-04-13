@@ -62,8 +62,13 @@ export const OverViewTodayCard = ({
   percentage,
   isUp,
 }) => (
+<<<<<<< HEAD
   <article className="bg-.Light-GrayishBlue w-xs dark:bg-.Dark-Desaturated-Blue h-24 mb-2 rounded-md mx-auto  mt-9 overflow-hidden hover:brightness-95 hover:dark:brightness-125 p-5 cursor-pointer ">
     <div className="flex items-center justify-between pb-2">
+=======
+  <article className="bg-.Light-GrayishBlue w-xs dark:bg-.Dark-Desaturated-Blue h-24 mb-2 rounded-md   mt-9 overflow-hidden hover:brightness-95 hover:dark:brightness-125 p-5 cursor-pointer ">
+    <div className="flex justify-between pb-2">
+>>>>>>> aadb2f81dfb7c69e580e2f163b56c40f88fdb155
       <p className="text-sm text-.Dark-Grayish-Blue font-bold">{statsType}</p>
       <img src={networkLogos[network]} alt={`logo ${network}`}></img>
     </div>

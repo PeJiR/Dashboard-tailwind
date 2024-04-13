@@ -18,7 +18,11 @@ const converNumberToK = (number) =>
  */
 export const OverviewContainer = () => {
   return (
+<<<<<<< HEAD
     <section className="max-w-screen-2xl flex flex-wrap gap-7 absolute place-content-center left-0 right-0  mx-auto   top-48 ">
+=======
+    <section className="max-w-screen-2xl flex flex-wrap absolute left-0 right-0  mx-auto  top-48">
+>>>>>>> aadb2f81dfb7c69e580e2f163b56c40f88fdb155
       {data.overview.map(
         ({ id, user, audienceType, audience, network, isUp, today }) => (
           <OverviewCard
@@ -36,6 +40,11 @@ export const OverviewContainer = () => {
   );
 };
 
+<<<<<<< HEAD
+=======
+console.log(data[`overviewtoday`]);
+
+>>>>>>> aadb2f81dfb7c69e580e2f163b56c40f88fdb155
 /**
  * Renders the OverViewTodayContainer component with data mapped to OverViewTodayCard components.
  *
@@ -44,7 +53,11 @@ export const OverviewContainer = () => {
 export const OverViewTodayContainer = () => {
   return (
     <section>
+<<<<<<< HEAD
       <h2 className="text-.Very-Dark-Blue dark:text-.Very-Pale-Blue font-bold text-2xl pt-6 mb-"> Overview Today</h2>
+=======
+      <h2 className="text-.Very-Dark-Blue dark:text-.Very-Pale-Blue font-bold text-2xl pt-6 mb-2   "> Overview Today</h2>
+>>>>>>> aadb2f81dfb7c69e580e2f163b56c40f88fdb155
       <div className=" w-80 mx-auto absolute right-0 left-0">
         {data[`overviewtoday`].map((object) => (
           <OverViewTodayCard
