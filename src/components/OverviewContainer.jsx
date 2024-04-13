@@ -1,24 +1,62 @@
 import data from "../../data/data.json";
-import { OverviewCard } from "./OverviewCard";
+import { OverviewCard, OverViewTodayCard } from "./OverviewCard";
 
 import React from "react";
+/**
+ * Converts a number to K format if it is greater than or equal to 100,000.
+ *
+ * @param {number} number - The number to be converted
+ * @return {string|number} The converted number in K format if applicable
+ */
+const converNumberToK = (number) =>
+  number >= 1e4 ? `${(number / 1e3).toFixed(0)}k` : number;
 
+/**
+ * Renders the OverviewContainer component with network data.
+ *
+ * @return {JSX.Element} The JSX element representing the OverviewContainer component.
+ */
 export const OverviewContainer = () => {
-  const converNumberToK = (number) =>
-    number >= 100000 ? `${(number / 1000).toFixed(1)}K` : number;
   return (
-    <section className="w-80 mx-auto absolute right-0 left-0 top-52">
-      {data.overview.map((object) => (
-        <OverviewCard
-          key={object.id}
-          user={object.user}
-          audienceType={object.audienceType}
-          audience={converNumberToK(object.audience)}
-          network={object.network}
-          isUp={object.isUp}
-          today={object.today}
-        />
-      ))}
+    <section className="max-w-screen-2xl flex flex-wrap gap-7 absolute place-content-center left-0 right-0  mx-auto   top-48 ">
+      {data.overview.map(
+        ({ id, user, audienceType, audience, network, isUp, today }) => (
+          <OverviewCard
+            key={id}
+            user={user}
+            audienceType={audienceType}
+            audience={converNumberToK(audience)}
+            network={network}
+            isUp={isUp}
+            today={today}
+          />
+        )
+      )}
+    </section>
+  );
+};
+
+/**
+ * Renders the OverViewTodayContainer component with data mapped to OverViewTodayCard components.
+ *
+ * @return {JSX.Element} The JSX element representing the OverViewTodayContainer component.
+ */
+export const OverViewTodayContainer = () => {
+  return (
+    <section>
+      <h2 className="text-.Very-Dark-Blue dark:text-.Very-Pale-Blue font-bold text-2xl pt-6 mb-"> Overview Today</h2>
+      <div className=" w-80 mx-auto absolute right-0 left-0">
+        {data[`overviewtoday`].map((object) => (
+          <OverViewTodayCard
+            key={object.id}
+            network={object.network}
+            statsType={object.statsType}
+            stats={converNumberToK(object.stats)}
+            percentage={object.percentage}
+            isUp={object.isUp}
+          />
+        ))}
+      </div>
     </section>
   );
 };

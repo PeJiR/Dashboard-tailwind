@@ -8,10 +8,11 @@ export const Header = () => {
   };
 
   useEffect(() => {
-   document.documentElement.classList.toggle('dark', darkMode)},[darkMode]);
+    document.documentElement.classList.toggle("dark", darkMode);
+  }, [darkMode]);
 
   return (
-    <header className="bg-.Very-Pale-Blue  dark:bg-.Very-Dark-Blue-top h-[235px] rounded-b-[20px] pt-8 px-6  ">
+    <header className="  mx-auto  max-w-screen-2xl bg-.Very-Pale-Blue  dark:bg-.Very-Dark-Blue-top h-[235px] rounded-b-[20px] pt-8 px-6 mb-[1000px] md:mb-[460px]  lg:mb-[460px] xl:mb-[200px] 2xl:mb-[180px]">
       <h1 className="text-.Very-Dark-Blue  dark:text-.Very-Pale-Blue text-2xl font-bold mb-1">
         Social Media Dashboard{" "}
       </h1>
@@ -20,16 +21,18 @@ export const Header = () => {
       </p>
       <hr className="bg-black mb- "></hr>
       <div className="flex justify-between items-center mt-4">
-        <p className="text-.Dark-Desaturated- Blue dark:text-.Desaturated-Blue font-bold">Dark mode</p>
+        <p className="text-.Dark-Desaturated- Blue dark:text-.Desaturated-Blue font-bold">
+          Dark mode
+        </p>
         <label
           htmlFor="darkmode"
           className="border relative bg-.Toggle w-12 h-6 rounded-full cursor-pointer p-[3px] overflow-hidden"
         >
           <input
-            onClick={handleClick}
+            checked={darkMode}
+            onChange={handleClick}
             id="darkmode"
             type="checkbox"
-            checked ={darkMode}
             className="peer sr-only"
           />
           <div className=" peer-checked:bg-.Toogle-gradient absolute top-0 left-0 w-full h-full "></div>
