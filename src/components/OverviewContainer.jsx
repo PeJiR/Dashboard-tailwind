@@ -44,7 +44,7 @@ export const OverviewContainer = () => {
 export const OverViewTodayContainer = () => {
   return (
     <section className="  ">
-      <h2 className="  text-2xl font-bold mb-7 text-Dark-Grayish-Blue dark:text-.Very-Pale-Blue ml-10 ">
+      <h2 className=" max-w-[1440px] text-2xl font-bold mb-7 text-Dark-Grayish-Blue dark:text-.Very-Pale-Blue ml-10 ">
         Overview Today
       </h2>
       <div className=" p-4  max-w-screen-2xl flex flex-wrap mx-auto  text-.Dark-Grayish-Blue">
