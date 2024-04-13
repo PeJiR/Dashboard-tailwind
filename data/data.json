@@ -35,11 +35,13 @@
       "audience": "8239",
       "today": 144,
       "isUp": false
-    },
+    }
+  ],
+  "overviewtoday": [
     {
       "id": "ot-001",
       "network": "Facebook",     
-      "statsType": "Likes",
+      "statsType": "Pages Views",
       "stats":87,
       "percentage": "3",
       "isUp": true
@@ -47,7 +49,7 @@
     {
       "id": "ot-002",
       "network": "Facebook",     
-      "statsType": "Pages Views",
+      "statsType": "Likes",
       "stats":52,
       "percentage": "2",
       "isUp": true
@@ -101,6 +103,6 @@
       "isUp": false
     }
     
-    
   ]
 }
+
