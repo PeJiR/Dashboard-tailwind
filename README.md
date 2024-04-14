@@ -29,12 +29,11 @@
 ---> 
 ## Project description: 
 
-The challenge is to build out this landing page.
+The challenge is to build out alanding page.
 
 The only JavaScript used is for the color theme toggle.
 
-Your users should be able to:
-
+The users should be able to:
 - Toggle color theme to their preference
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
