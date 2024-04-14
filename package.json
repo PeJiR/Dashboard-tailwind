@@ -2,7 +2,7 @@
   "name": "proyecto-2---dashboard",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/PeJiR/Dashboard-tailwind-",
+  "homepage": "https://github.com/PeJiR/Dashboard-tailwind",
   "type": "module",
   "scripts": {
     "dev": "vite",
