@@ -4,7 +4,7 @@
   
    
 
-<a href ="https://github.com/PeJiR/freeCodeCamp-Full-Stack-Web-Development-Certification-Computer-Software-Engineering/tree/main">
+<a href ="">
     <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" loading="lazy" alt="freeCodeCamp" evi-   width="96" height="96"target="_blank">
   </a>
  
