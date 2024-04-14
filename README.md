@@ -29,12 +29,11 @@
 ---> 
 ## Project description: 
 
-The challenge is to build out this landing page.
+The challenge is to build out alanding page.
 
 The only JavaScript used is for the color theme toggle.
 
-Your users should be able to:
-
+The users should be able to:
 - Toggle color theme to their preference
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
@@ -53,14 +52,14 @@ Your users should be able to:
 
 ## Preview
 
-<a href="https://codepen.io/Robeloper/full/ZEPRzZx">
+<a href="https://pejir.github.io/Social-media-dashboard-with-theme-switcher/">
   <img src="photo.png" width="auto">
 </a>
 
 
 ##  See project online 
 
-[Link to project](https://codepen.io/Robeloper/full/ZEPRzZx) ✨
+[Link to project](https://pejir.github.io/Social-media-dashboard-with-theme-switcher/) ✨
 
 
 
