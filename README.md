@@ -52,14 +52,14 @@ The users should be able to:
 
 ## Preview
 
-<a href="https://codepen.io/Robeloper/full/ZEPRzZx">
+<a href="https://pejir.github.io/Social-media-dashboard-with-theme-switcher/">
   <img src="photo.png" width="auto">
 </a>
 
 
 ##  See project online 
 
-[Link to project](https://codepen.io/Robeloper/full/ZEPRzZx) ✨
+[Link to project](https://pejir.github.io/Social-media-dashboard-with-theme-switcher/) ✨
 
 
 
